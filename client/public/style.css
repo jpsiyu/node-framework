@@ -4,111 +4,15 @@
     box-sizing: 0;
 }
 
-
-.noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently */
-}
-
-@media screen and (max-width: 768px){
-
-    .entry{
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .e-title{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        color: white;
-    }
-
-    .e-content{
-        flex: 10;
-        background-color: rgba(240, 240, 240, 0.8);
-        border: 1px lightgray solid;
-        overflow: scroll;
-        padding: 0 5px;
-    }
-
-    .e-bottom{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: gray;
-    }
-
-    .e-panel{
-        position: absolute;
-        height: 91.7%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .paragraph{
-        padding: 10px 0;
-    }
-
-    .directory{
-        background-color: lightgray;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 50%;
-        display: flex;
-    }
-
-    .d-left{
-        flex: 2;
-        border-right: 2px white solid;
-        overflow: scroll;
-        background-color: lightgray;
-    }
-
-    .d-right{
-        flex: 3;
-    }
-
-    .d-item{
-        margin-bottom: 3px;
-        background-color: white;
-        color: gray;
-        border: 1px lightgray solid;
-    }
-
-    .d-itemname{
-        padding: 10px 5px;
-    }
-
-    .d-panel{
-        background-color: lightgray;
-        margin-left: 20px;
-    }
-
-    .d-subitem{
-        background-color: white;
-        border-top: 1px lightgray solid;
-        padding: 5px 0;
-    }
-
-    .d-article-item{
-        border: 1px lightgray solid;
-        background-color: white;
-        color: gray;
-        padding: 10px;
-        margin-bottom: 3px;
-    }
+.hello{
+    width: 40%;
+    background: blueviolet;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 30px auto;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    font-size: 3rem;
 }
