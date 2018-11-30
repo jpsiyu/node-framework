@@ -1,7 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './app'
+import Entry from './entry'
+
+const app = new App()
+app.start()
 
 ReactDOM.render(
-    <div className='hello'>Welcome</div>,
+    <Entry />,
     document.getElementById('root')
 )
