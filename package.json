@@ -1,13 +1,14 @@
 {
-  "name": "blockchain-book",
+  "name": "webapp",
   "version": "1.0.0",
   "main": "index.js",
-  "port": "3003",
+  "port": "80",
   "scripts": {
-    "start": "nodemon server/app.js -w server",
-    "parcel-watch": "parcel watch ./client/public/index.html",
-    "parcel-build": "parcel build ./client/public/index.html",
-    "parcel-clear": "rm -rf .cache dist",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js -w server",
+    "cdev": "parcel watch ./client/public/index.html",
+    "cbuild": "parcel build ./client/public/index.html",
+    "cclear": "rm -rf .cache dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +22,6 @@
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "parcel": "^1.10.3"
+    "parcel-bundler": "^1.11.0"
   }
 }
